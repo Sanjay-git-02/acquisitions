@@ -53,3 +53,20 @@
 {"level":"info","message":"User created with email: aashikhidayth@gmail.com","service":"user-service"}
 {"level":"info","message":"User registered successfully with name ashik with email aashikhidayth@gmail.com","service":"user-service"}
 {"level":"info","message":"::1 - - [23/Mar/2026:08:27:36 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 121 \"-\" \"PostmanRuntime/7.52.0\"","service":"user-service"}
+{"level":"info","message":"User authenticated with email: aashikhidayth@gmail.com","service":"user-service"}
+{"level":"info","message":"User signed in successfully with email aashikhidayth@gmail.com","service":"user-service"}
+{"level":"info","message":"::1 - - [23/Mar/2026:09:53:24 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 120 \"-\" \"PostmanRuntime/7.52.0\"","service":"user-service"}
+{"level":"info","message":"User signed out successfully","service":"user-service"}
+{"level":"info","message":"::1 - - [23/Mar/2026:09:53:40 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.52.0\"","service":"user-service"}
+{"ip":"::1","level":"warn","message":"Bot request Blocked","path":"/health","service":"user-service","userAgent":"PostmanRuntime/7.52.0"}
+{"level":"info","message":"::1 - - [23/Mar/2026:15:17:49 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.52.0\"","service":"user-service"}
+{"ip":"::1","level":"warn","message":"Bot request Blocked","path":"/health","service":"user-service","userAgent":"PostmanRuntime/7.52.0"}
+{"level":"info","message":"::1 - - [23/Mar/2026:15:17:58 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.52.0\"","service":"user-service"}
+{"ip":"::1","level":"warn","message":"Bot request Blocked","path":"/health","service":"user-service","userAgent":"PostmanRuntime/7.52.0"}
+{"level":"info","message":"::1 - - [23/Mar/2026:15:18:00 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.52.0\"","service":"user-service"}
+{"ip":"::1","level":"warn","message":"Bot request Blocked","path":"/health","service":"user-service","userAgent":"PostmanRuntime/7.52.0"}
+{"level":"info","message":"::1 - - [23/Mar/2026:15:18:02 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.52.0\"","service":"user-service"}
+{"ip":"::1","level":"warn","message":"Bot request Blocked","path":"/health","service":"user-service","userAgent":"PostmanRuntime/7.52.0"}
+{"level":"info","message":"::1 - - [23/Mar/2026:15:18:52 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.52.0\"","service":"user-service"}
+{"ip":"::1","level":"warn","message":"Bot request Blocked","path":"/health","service":"user-service","userAgent":"PostmanRuntime/7.52.0"}
+{"level":"info","message":"::1 - - [23/Mar/2026:15:18:59 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.52.0\"","service":"user-service"}

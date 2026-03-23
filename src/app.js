@@ -5,6 +5,7 @@ import morgan from 'morgan';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import authRoutes from './routes/authRoutes.js';
+import securityMiddleware from "./middlewares/security.middleware.js";
 
 const app = express();
 app.use(cors());
@@ -17,6 +18,8 @@ app.use(
   })
 );
 app.use(cookieParser());
+
+app.use(securityMiddleware);
 
 app.get('/', (req, res) => {
   logger.info('Hello from Acquisitions API!');

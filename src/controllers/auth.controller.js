@@ -3,7 +3,7 @@ import { signupSchema, signinSchema } from '../validations/auth.validation.js';
 import { formatValidationError } from '../utils/format.js';
 import { createUser, authenticateUser } from '../services/auth.service.js';
 import { jwttoken } from '../utils/jwt.js';
-import {cookies} from "../utils/cookies.js";
+import { cookies } from '../utils/cookies.js';
 
 export const signup = async (req, res, next) => {
   try {
