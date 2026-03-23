@@ -1,0 +1,19 @@
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","message":"Error creating user: ReferenceError: users is not defined","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","message":"Error creating user: ReferenceError: users is not defined","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","message":"Error creating user: ReferenceError: eq is not defined","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","message":"Error creating user: ReferenceError: eq is not defined","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","message":"Error creating user: Error: User already exists","service":"user-service"}
+{"level":"error","service":"user-service"}
+{"level":"error","message":"Error creating user: Error: User already exists","service":"user-service"}
+{"level":"error","service":"user-service"}
